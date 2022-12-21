@@ -2,11 +2,12 @@ import CTA from "./CTA";
 import ME from "../../images/PhotoCV.png";
 import "./header.css";
 import HeaderSocial from "./HeaderSocial";
+import "./header.css";
 
 export default function Header() {
   return (
     <header>
-      <div className="container header__container">
+      <div className="container header_container">
         <h5>Hello I'm</h5>
         <h1>Eliana Dominguez</h1>
         <h5 className="text-light">Fullstack Developer</h5>
