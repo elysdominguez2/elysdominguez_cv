@@ -163,11 +163,12 @@ header {
 }
 
 .name span:hover {
-  animation: hovere 1s ease-in-out;
-  transform-origin: bottom center;
+  /* animation: hovere 1s ease-in-out;
+  transform-origin: bottom center; */
+  color: rgb(149, 247, 247);
 }
 
-@keyframes hovere {
+/* @keyframes hovere {
   35% {
     transform: scale(2, 0.2) translate(0, 0);
   }
@@ -179,8 +180,8 @@ header {
 
   80% {
     transform: scale(1) translate(0, 0);
-  }
-}
+  } */
+/* } */
 
 /* HEADER DISPLAY */
 .header_display {
