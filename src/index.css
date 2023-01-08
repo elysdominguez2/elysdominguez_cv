@@ -130,6 +130,7 @@ img {
   .container {
     width: var(--container-width-sm);
   }
+
   section > h2n {
     margin-top: 2rem;
   }
