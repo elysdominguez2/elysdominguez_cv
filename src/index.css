@@ -71,6 +71,9 @@ section > h2 {
   color: var(--color-primary);
   margin-bottom: 3rem;
 }
+::placeholder {
+  color: var(--color-primary-variant);
+}
 
 .text-light {
   color: var(--color-light);
