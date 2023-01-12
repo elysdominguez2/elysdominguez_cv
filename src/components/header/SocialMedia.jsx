@@ -2,9 +2,9 @@ import { SlSocialBehance } from "react-icons/sl";
 import { VscGithubAlt } from "react-icons/vsc";
 import { SlSocialLinkedin } from "react-icons/sl";
 
-export default function HeaderSocial() {
+export default function SocialMedia() {
   return (
-    <div className="header_social">
+    <div className="social">
       <a
         href="https://www.linkedin.com/in/elianadominguez/"
         target="_blank"

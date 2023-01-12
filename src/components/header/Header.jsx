@@ -1,7 +1,6 @@
 import CTA from "./CTA";
-import ME from "../../images/PhotoCV.png";
 import "./header.css";
-import HeaderSocial from "./HeaderSocial";
+import SocialMedia from "./SocialMedia";
 import "./header.css";
 
 export default function Header() {
@@ -24,7 +23,7 @@ export default function Header() {
           <div className="me">{/* <img src={ME} alt="me" /> */}</div>
 
           <CTA />
-          <HeaderSocial />
+          <SocialMedia className="header_social" />
         </div>
         <a href="#contact" className="scroll_down">
           Scroll Down
