@@ -20,7 +20,7 @@ export default function Header() {
           <h5 className="subtitle text-light">Fullstack Developer</h5>
         </div>
         <div className="header_display">
-          <div className="me">{/* <img src={ME} alt="me" /> */}</div>
+          <div className="me"></div>
 
           <CTA />
           <SocialMedia className="header_social" />
