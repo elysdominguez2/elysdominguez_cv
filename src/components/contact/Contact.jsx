@@ -2,6 +2,8 @@ import "./contact.css";
 import { FaRegEnvelope } from "react-icons/fa";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
+import { useSelector } from "react-redux";
+import { selectTheme } from "../../store/theme/selectors";
 
 export default function Contact() {
   const form = useRef();
@@ -18,8 +20,10 @@ export default function Contact() {
     e.target.reset();
   };
 
+  const theme = useSelector(selectTheme);
+
   return (
-    <section id="contact">
+    <section className={theme} id="contact">
       <h5>Get in Touch</h5>
       <h2>Contact me</h2>
       <div className="container contact_container">

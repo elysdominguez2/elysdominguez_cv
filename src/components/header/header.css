@@ -1,14 +1,73 @@
 header {
   height: 100vh;
-
   overflow: hidden;
 }
 
 .header_container {
   text-align: center;
   height: 100%;
-  /* position: hidden; */
   display: flex;
+}
+/* TOGGLE BUTTON */
+.mode {
+  padding: 2rem 2rem 0 0;
+  text-align: end;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--color-primary);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: var(--color-light);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+input:checked + .slider {
+  background-color: var(--color-bg);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
 }
 
 /* HEADER TITLE */
@@ -213,36 +272,25 @@ header {
   height: 2rem;
   background: var(--color-primary);
 }
+.light .social::after {
+  background: var(--color-bg);
+}
 
 /* ME */
 .me {
   width: 100%;
   height: 50%;
-  background: url(https://res.cloudinary.com/dfwupsfxv/image/upload/v1671787518/CVPHOTO_krha1z.png);
+  background: url(https://res.cloudinary.com/dfwupsfxv/image/upload/v1673856290/me-transp_iiqymv.png);
   background-repeat: no-repeat;
   background-position: center;
-  opacity: 1;
-  transition: 1s;
-}
-.me:hover {
-  opacity: 1;
-  width: 100%;
-  height: 50%;
-  background: url(https://res.cloudinary.com/dfwupsfxv/image/upload/v1671792807/CVPHOTOCARTOON400_w7oc6d.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  transform: scaleX(-1);
 }
 
-@keyframes flip-vertical-fwd {
-  0% {
-    transform: translateZ(0) rotateY(0);
-    transform: translateZ(0) rotateY(0);
-  }
-  100% {
-    transform: translateZ(160px) rotateY(180deg);
-    transform: translateZ(160px) rotateY(180deg);
-  }
+.light .me {
+  width: 100%;
+  height: 50%;
+  background: url(https://res.cloudinary.com/dfwupsfxv/image/upload/v1673856289/me-draw-transp_ga6brc.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* SCROLL DOWN */
@@ -278,25 +326,12 @@ header {
     background-repeat: no-repeat;
     background-position: center;
   }
-  .me:hover {
-    animation: flip-vertical-fwd 1s ease-in-out;
-    animation-fill-mode: forwards;
+  .light .me {
     width: 25rem;
     height: 25rem;
-    background: url(https://res.cloudinary.com/dfwupsfxv/image/upload/v1671792807/CVPHOTOCARTOON400_w7oc6d.png);
+    background: url(https://res.cloudinary.com/dfwupsfxv/image/upload/v1673856289/me-draw-transp_ga6brc.png);
     background-repeat: no-repeat;
     background-position: center;
-  }
-
-  @keyframes flip-vertical-fwd {
-    0% {
-      transform: translateZ(0) rotateY(0);
-      transform: translateZ(0) rotateY(0);
-    }
-    100% {
-      transform: translateZ(160px) rotateY(180deg);
-      transform: translateZ(160px) rotateY(180deg);
-    }
   }
 }
 
@@ -328,24 +363,11 @@ header {
     background-repeat: no-repeat;
     background-position: center;
   }
-  .me:hover {
-    animation: flip-vertical-fwd 1s ease-in-out;
-    animation-fill-mode: forwards;
+  .light .me {
     width: 15rem;
     height: 15rem;
-    background: url(https://res.cloudinary.com/dfwupsfxv/image/upload/v1671792806/CVPHOTOCARTOON200_de3wys.png);
+    background: url(https://res.cloudinary.com/dfwupsfxv/image/upload/v1673877255/me-white-200_tnirdy.png);
     background-repeat: no-repeat;
     background-position: center;
-  }
-
-  @keyframes flip-vertical-fwd {
-    0% {
-      transform: translateZ(0) rotateY(0);
-      transform: translateZ(0) rotateY(0);
-    }
-    100% {
-      transform: translateZ(160px) rotateY(180deg);
-      transform: translateZ(160px) rotateY(180deg);
-    }
   }
 }

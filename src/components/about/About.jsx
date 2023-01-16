@@ -1,6 +1,12 @@
 import "./about.css";
 import MeMovie from "../../images/MeMovieAbout.gif";
 import ME from "../../images/PhotoCV.png";
+import Cake from "../../images/me-cake.jpg";
+import Disney from "../../images/me-disney.jpg";
+import Paint from "../../images/me-painting.jpg";
+import Paris from "../../images/me-paris.png";
+import Rollers from "../../images/me-rollers.png";
+import Makeup from "../../images/me-makeup.png";
 
 export default function About() {
   return (
@@ -37,12 +43,12 @@ export default function About() {
         </div>
       </div>
       <div className="about_pictures">
-        <img src={ME} alt="me" />
-        <img src={ME} alt="me" />
-        <img src={ME} alt="me" />
-        <img src={ME} alt="me" />
-        <img src={ME} alt="me" />
-        <img src={ME} alt="me" />
+        <img src={Paris} alt="me" />
+        <img src={Paint} alt="me" />
+        <img src={Cake} alt="me" />
+        <img src={Disney} alt="me" />
+        <img src={Makeup} alt="me" />
+        <img src={Rollers} alt="me" />
       </div>
     </section>
   );

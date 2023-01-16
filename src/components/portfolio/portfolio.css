@@ -19,6 +19,12 @@
   -moz-box-shadow: 6px 5px 19px 0px rgba(31, 25, 25, 0.75) inset;
 }
 
+.light .portfolio_item:hover {
+  box-shadow: 6px 5px 19px 0px rgb(252, 249, 249) inset;
+  -webkit-box-shadow: 6px 5px 19px 0px rgba(237, 223, 223, 0.973) inset;
+  -moz-box-shadow: 6px 5px 19px 0px rgba(244, 237, 237, 0.957) inset;
+}
+
 .portfolio_item img {
   border-radius: 1rem;
   overflow: hidden;

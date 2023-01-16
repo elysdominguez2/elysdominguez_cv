@@ -11,11 +11,19 @@
   border: 1px solid transparent;
   transition: var(--transition);
 }
-
 .experience_container > div:hover {
   background: transparent;
   border-color: var(--color-light);
   cursor: default;
+}
+.light .experience_container > div {
+  background: var(--c-bg-variant-light-mode);
+}
+
+.light .experience_container > div:hover {
+  background: var(--c-grey-light-mode);
+  color: var(--c-bg-variant-light-mode);
+  border-color: var(--c-grey-light-mode);
 }
 
 .experience_container > div h3 {

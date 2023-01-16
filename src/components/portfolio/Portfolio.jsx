@@ -1,6 +1,8 @@
 import "./portfolio.css";
 import Project from "./Project";
 import ProMovie from "../../images/MeMovieAbout.gif";
+import { useSelector } from "react-redux";
+import { selectTheme } from "../../store/theme/selectors";
 
 export default function Portfolio() {
   const projects = [
@@ -38,8 +40,11 @@ export default function Portfolio() {
       demo: "https://www.google.com/",
     },
   ];
+
+  const theme = useSelector(selectTheme);
+
   return (
-    <section id="portfolio">
+    <section className={theme} id="portfolio">
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
       <div className="container portfolio_container">

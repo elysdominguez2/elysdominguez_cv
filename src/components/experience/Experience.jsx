@@ -1,6 +1,8 @@
 import "./experience.css";
 import Skills from "./Skills";
 // import { BsFillPatchCheckFill } from "react-icons/bs";
+import { useSelector } from "react-redux";
+import { selectTheme } from "../../store/theme/selectors";
 
 export default function Experience() {
   const skills = [
@@ -25,8 +27,10 @@ export default function Experience() {
     "I love challenges",
     "Social Attentive",
   ];
+
+  const theme = useSelector(selectTheme);
   return (
-    <section id="experience">
+    <section className={theme} id="experience">
       <h5>What skills I have</h5>
       <h2>My experience</h2>
 
