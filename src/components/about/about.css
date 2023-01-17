@@ -10,7 +10,7 @@
 }
 
 .about_me {
-  width: 93%;
+  width: 100%;
   aspect-ratio: 1/1;
   border-radius: 2rem;
   background: linear-gradient(
@@ -23,6 +23,7 @@
   place-items: center;
 }
 .about_me_image {
+  width: 100%;
   border-radius: 2rem;
   overflow: hidden;
   transform: rotate(10deg);
