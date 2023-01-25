@@ -55,9 +55,7 @@ export default function Contact() {
             required
           />
           <input type="email" name="email" placeholder="Your Email" required />
-          <textarea name="message" rows="7" required>
-            Your message
-          </textarea>
+          <textarea name="message" rows="7" required></textarea>
           <button type="submit" className="btn">
             Send
           </button>
