@@ -67,4 +67,10 @@ textarea {
   .container.contact_container {
     width: var(--container-width-sm);
   }
+  .contact_regard h4 {
+    font-size: 1.2rem;
+  }
+  .thanks {
+    font-size: 1rem;
+  }
 }

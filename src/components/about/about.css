@@ -91,4 +91,7 @@
   .about_pictures img {
     margin: 0 1rem 2rem 1rem;
   }
+  .about_content {
+    font-size: 1rem;
+  }
 }

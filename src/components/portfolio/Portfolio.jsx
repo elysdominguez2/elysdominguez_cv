@@ -22,7 +22,7 @@ export default function Portfolio() {
     },
     {
       id: 2,
-      name: "Equal Games",
+      name: "Find the Bugs Equal Games ",
       video: equal,
       git_front: "https://github.com/elysdominguez2/equalgame",
       git_back: "",
@@ -30,7 +30,7 @@ export default function Portfolio() {
     },
     {
       id: 3,
-      name: "Portfolio Project",
+      name: "Portfolio Personal Projects",
       video: portfolio,
       git_front: "https://github.com/elysdominguez2/elysdominguez_cv",
       git_back: "",
