@@ -1,5 +1,5 @@
 header {
-  height: 100%;
+  height: 100vh;
   overflow: hidden;
 }
 
@@ -309,6 +309,7 @@ input:checked + .slider:before {
 @media screen and (max-width: 1300px) {
   header {
     padding-bottom: 5rem;
+    height: 100%;
   }
   .header_container {
     display: flex;
