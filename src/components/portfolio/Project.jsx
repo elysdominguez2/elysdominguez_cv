@@ -5,14 +5,14 @@ export default function Project(props) {
     <div>
       <article className="portfolio_item">
         <img src={props.project.video} alt="a short video of my project" />
-        <a
-          href={props.project.demo}
-          target="_blank"
-          rel="noreferrer"
-          className="live-demo"
-        >
-          <h3>LIVE DEMO: {props.project.name}</h3>
-        </a>
+        {props.project.name === "Choose your own adventure" ? (
+          <a href={props.project.demo} target="_blank" rel="noreferrer">
+            <h3 className="live-demo">LIVE DEMO: {props.project.name}</h3>
+          </a>
+        ) : (
+          <h3>{props.project.name}</h3>
+        )}
+
         <div className="portfolio_item_cta">
           <a
             href={props.project.git_front}

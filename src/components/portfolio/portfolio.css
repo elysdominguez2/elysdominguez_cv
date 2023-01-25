@@ -34,7 +34,7 @@
   color: var(--color-primary-variant);
   text-align: center;
 }
-.portfolio_item h3:hover {
+.portfolio_item .live-demo:hover {
   color: var(--color-bg);
 }
 .portfolio_item_cta {
