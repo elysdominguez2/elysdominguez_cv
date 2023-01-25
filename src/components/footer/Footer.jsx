@@ -4,6 +4,7 @@ import { HiHeart } from "react-icons/hi";
 import { SlSocialBehance } from "react-icons/sl";
 import { VscGithubAlt } from "react-icons/vsc";
 import { SlSocialLinkedin } from "react-icons/sl";
+import { ImCodepen } from "react-icons/im";
 
 export default function Footer() {
   return (
@@ -30,6 +31,13 @@ export default function Footer() {
           className="behance"
         >
           <SlSocialBehance />
+        </a>
+        <a
+          href="https://codepen.io/elysdominguez2"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <ImCodepen />
         </a>
       </div>
 
