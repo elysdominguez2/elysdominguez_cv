@@ -28,12 +28,12 @@ export default function Contact() {
       <h2>Contact me</h2>
       <div className="container contact_container">
         <article className="contact_regard">
-          <h4>Thanks</h4>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis culpa
-            nam laudantium vel accusamus, at in, itaque neque ullam qui
-            architecto reprehenderit harum accusantium? Cupiditate assumenda et
-            harum dolore natus.
+          <h4>Thanks for stopping by</h4>
+          <p className="thanks">
+            I am currently looking to join a new team of creative developers.{" "}
+            <br />
+            If you think we might be a good fit, send me an email or fill the
+            form.
           </p>
 
           <a

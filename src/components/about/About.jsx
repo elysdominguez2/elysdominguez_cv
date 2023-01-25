@@ -1,6 +1,5 @@
 import "./about.css";
 import MeMovie from "../../images/MeMovieAbout.gif";
-import ME from "../../images/PhotoCV.png";
 import Cake from "../../images/me-cake.jpg";
 import Disney from "../../images/me-disney.jpg";
 import Paint from "../../images/me-painting.jpg";
@@ -37,8 +36,9 @@ export default function About() {
             streaks in language applications for almost two years.
           </p>
           <p>
-            I am constant, determined and passionate. I like to invest my time
-            productively.
+            I am a curious and passionate person who turns hobbies into
+            professions, that's why I have so many studies and careers. I like
+            to spend my time productively.
           </p>
         </div>
       </div>
