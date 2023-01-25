@@ -307,6 +307,9 @@ input:checked + .slider:before {
 /* MEDIUM DEVICES - MEDIA QUERIES */
 
 @media screen and (max-width: 1300px) {
+  header {
+    padding-bottom: 5rem;
+  }
   .header_container {
     display: flex;
     flex-direction: column;
