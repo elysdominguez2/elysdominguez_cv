@@ -21,24 +21,31 @@ export default function About() {
         </div>
         <div className="about_content">
           <p>
-            Creating for me is a lifestyle, from make up, cakes, events and
-            today functional code. All this makes world look more beautiful.
+            I am a creator at heart, from makeup and cakes to events and code.
+            Making the world a more beautiful place is my passion. I am always
+            seeking new opportunities to learn and grow, both personally and
+            professionally. My career has been diverse and filled with
+            challenges, but my determination and ambition have allowed me to
+            overcome them and achieve success.
           </p>
           <p>
-            I am a Argentinian developer living in the Netherlands. Excited and
-            fearless with this new challenge of living abroad I started again
-            from scratch.
+            As an Argentinian developer now living in the Netherlands, I am
+            excited and fearless to embrace the new challenge of starting fresh
+            in a foreign country.
           </p>
           <p>
-            When I have a goal I don't stop and go for more. Thanks to that, I
-            managed to get promoted in my jobs, make my passions professions,
-            won medals in women's volleyball as a teenager and maintain study
-            streaks in language applications for almost two years.
+            I have a strong entrepreneurial spirit and have built my own
+            successful business for almost 5 years. I am a digital expert with a
+            winner's mentality, always looking to improve and work
+            collaboratively with others. I thrive on challenges and am always
+            looking for new ways to push myself out of my comfort zone.
           </p>
           <p>
-            I am a curious and passionate person who turns hobbies into
-            professions, that's why I have so many studies and careers. I like
-            to spend my time productively.
+            In my free time, you can find me exploring new passions such as
+            riding a bike, rollerblading, photography, and visiting museums. I
+            am creative, passionate about learning, and have a positive
+            attitude. I am determined to make the most of every opportunity and
+            to always be better than I was yesterday.
           </p>
         </div>
       </div>
