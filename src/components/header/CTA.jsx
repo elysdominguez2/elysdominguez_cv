@@ -1,4 +1,4 @@
-import CV from "../../images/Eliana-Dominguez-CV.pdf";
+import CV from "../../images/CV-Eliana-Dominguez_WEB.pdf";
 
 export default function CTA() {
   return (
